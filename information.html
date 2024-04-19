@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Gastro Flavor</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Free HTML Templates" name="keywords" />
+  <meta content="Free HTML Templates" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- TopBar y Navbar Start -- usando JQuery -->
+  <div class="topbar">
+    <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+  </div>
+  <!-- TopBar y Navbar End -- usando JQuery -->
+
+  <!-- Header Start -->
+  <div class="container-fluid page-header py-5">
+    <div class="container py-5">
+      <h1 class="display-3 text-white mb-3 animated slideInDown">
+        Información del Autor
+      </h1>
+    </div>
+  </div>
+  <!-- Header End -->
+
+
+  <!-- Autor Start -->
+  <div class="container-fluid bg-dark text-light overflow-hidden my-5 px-lg-0" id="aboutCesar">
+    <div class="container about px-lg-0">
+      <div class="row g-0 mx-lg-0">
+        <div class="col-lg-6 order-lg-2 pe-lg-0">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100 object-fit-contain" src="img/Cesar.jpg" alt="" />
+          </div>
+        </div>
+        <div class="col-lg-6 about-text py-5 wow fadeIn" data-wow-delay="0.5s">
+          <div class="p-lg-5 ps-lg-0">
+            <h1 class="display-4 text-warning mb-4">César Gutiérrez </h1>
+            <ul class="list-unstyled mb-4">
+              <li><strong>Cédula:</strong> 116980614</li>
+              <li><strong>Correo electrónico:</strong> cesargutic98@gmail.com</li>
+            </ul>
+            <p class="lead mb-4">
+              Trabajo en Equifax y estudio en la Universidad Técnica Nacional, la carrera de Ingenieria del Software.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Autor End -->
+
+  <!-- footer Start -- usando JQuery -->
+  <div class="footer">
+    <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+  </div>
+  <!-- footer End -- usando JQuery -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+
+  <!--  Script para cargar:
+    topbar,
+    navbar y
+    footer 
+    con un function  -->
+  <script>
+    let toast = "";
+    $(document).ready(function () {
+      // Se carga el topbar
+      $(".topbar").load("topbar.html");
+      // Se carga el footer
+      $(".footer").load("footer.html");
+      toast = localStorage.getItem("toast");
+      if (toast == "true") {
+        $("#liveToast").removeClass("hide");
+        $("#liveToast").addClass("show");
+        setTimeout(function () {
+          $("#liveToast").fadeOut(1500);
+          $("#liveToast").removeClass("show");
+          $("#liveToast").removeClass("hide");
+          localStorage.clear();
+        }, 3000);
+      }
+    });
+
+  </script>
+</body>
+
+</html>

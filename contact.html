@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Gastro Flavor</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Carga de maps -->
+    <script src="js/maps.js"></script>
+    <link rel="stylesheet" href="css/maps.css">
+
+</head>
+
+<body>
+    <!-- TopBar y Navbar Start -- usando JQuery -->
+    <div class="topbar">
+        <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+    </div>
+    <!-- TopBar y Navbar End -- usando JQuery -->
+
+    <!-- Header Start -->
+    <div class="container-fluid page-header">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h3 class="display-4 text-white text-uppercase">Contacto</h3>
+                <div class="d-inline-flex text-white">
+                    <p class="m-0 text-uppercase"><a class="text-white" href="">Inicio</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">Contacto</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid booking mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="bg-light shadow" style="padding: 30px;">
+                <div class="row align-items-center" style="min-height: 60px;">
+                    <div class="col-md-10">
+                        <form target="_blank" action="https://formsubmit.co/cesargutic98@gmail.com" method="POST">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <select id="countriesSelect" name="country" class="custom-select px-4"
+                                            style="height: 47px;"></select>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <div class="date" id="date1" data-target-input="nearest">
+                                            <input name="Depart date" type="text"
+                                                class="form-control p-4 datetimepicker-input" placeholder="Depart Date"
+                                                data-target="#date1" data-toggle="datetimepicker" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <div class="date" id="date2" data-target-input="nearest">
+                                            <input name="Return date" type="text"
+                                                class="form-control p-4 datetimepicker-input" placeholder="Return Date"
+                                                data-target="#date2" data-toggle="datetimepicker" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <select name="duration" class="custom-select px-4" style="height: 47px;">
+                                            <option selected>2 Horas</option>
+                                            <option value="1">3 Horas</option>
+                                            <option value="2">4 Horas</option>
+                                            <option value="3">Toda la Noche</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary btn-block" type="submit"
+                            style="height: 47px; margin-top: -2px;">Reservar</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" style="margin-bottom: 400px;">
+        <div class="container py-5">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Contactenos</h6>
+                <h1>Contactenos para cualquier Consulta</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form bg-white" style="padding: 30px;">
+                        <div id="success"></div>
+                        <form target="_blank" action="https://formsubmit.co/cesargutic98@gmail.com" method="POST">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" name="name"
+                                        placeholder="Nombre" required="required"
+                                        data-validation-required-message="Ingrese su nombre" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" name="email"
+                                        placeholder="Correo" required="required"
+                                        data-validation-required-message="Ingrese su correo" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" name="subject"
+                                    placeholder="Titulo" required="required"
+                                    data-validation-required-message="Ingrese un titulo" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" name="message"
+                                    placeholder="Mensaje" required="required"
+                                    data-validation-required-message="Ingrese el mensaje"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn btn-primary py-3 px-4" type="submit"
+                                    id="sendMessageButton">Enviar</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <h1>Distancia a la que te encuentras de nuestras oficinas!</h1>
+            <!-- Div donde se colocará el mapa -->
+            <div id="map"></div>
+
+            <p>Distancia desde tu ubicación actual al punto de negocio: <span id="distance"></span></p>
+            <!-- Cargar la API de Google Maps JavaScript -->
+            <script
+                src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWRX-3VLgbsTU6pHMd6UxsJESxQ4WX-nI&callback=initMap"
+                async defer></script>
+            <!-- Reemplaza "Your_API_KEY" con tu propia clave de API -->
+        </div>
+    </div>
+    <!-- Contact End -->
+
+    <!-- footer Start -- usando JQuery -->
+    <div class="footer">
+        <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+    </div>
+    <!-- footer End -- usando JQuery -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Script para cargar países automáticamente al cargar la página -->
+    <script src="./js/countries.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!--  Script para cargar:
+    topbar,
+    navbar y
+    footer 
+    con un function  -->
+    <script>
+        let toast = "";
+        $(document).ready(function () {
+            // Se carga el topbar
+            $(".topbar").load("topbar.html");
+            // Se carga el footer
+            $(".footer").load("footer.html");
+            toast = localStorage.getItem("toast");
+            if (toast == "true") {
+                $("#liveToast").removeClass("hide");
+                $("#liveToast").addClass("show");
+                setTimeout(function () {
+                    $("#liveToast").fadeOut(1500);
+                    $("#liveToast").removeClass("show");
+                    $("#liveToast").removeClass("hide");
+                    localStorage.clear();
+                }, 3000);
+            }
+        });
+
+    </script>
+
+</body>
+
+</html>

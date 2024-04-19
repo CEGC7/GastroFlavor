@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>TRAVELER - Free Travel Website Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- TopBar y Navbar Start -- usando JQuery -->
+    <div class="topbar">
+        <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+    </div>
+    <!-- TopBar y Navbar End -- usando JQuery -->
+
+    <!-- Header Start -->
+    <div class="container-fluid page-header">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center justify-content-center" style="min-height: 400px">
+                <h3 class="display-4 text-white text-uppercase">Nosotros</h3>
+                <div class="d-inline-flex text-white">
+                    <p class="m-0 text-uppercase"><a class="text-white" href="">Inicio</a></p>
+                    <i class="fa fa-angle-double-right pt-1 px-3"></i>
+                    <p class="m-0 text-uppercase">Nosotros</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Booking Start -->
+    <div class="container-fluid booking mt-5 pb-5">
+        <div class="container pb-5">
+            <div class="bg-light shadow" style="padding: 30px;">
+                <div class="row align-items-center" style="min-height: 60px;">
+                    <div class="col-md-10">
+                        <form target="_blank" action="https://formsubmit.co/cesargutic98@gmail.com" method="POST">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <select id="countriesSelect" name="country" class="custom-select px-4"
+                                            style="height: 47px;"></select>
+
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <div class="date" id="date1" data-target-input="nearest">
+                                            <input name="Depart date" type="text"
+                                                class="form-control p-4 datetimepicker-input" placeholder="Depart Date"
+                                                data-target="#date1" data-toggle="datetimepicker" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <div class="date" id="date2" data-target-input="nearest">
+                                            <input name="Return date" type="text"
+                                                class="form-control p-4 datetimepicker-input" placeholder="Return Date"
+                                                data-target="#date2" data-toggle="datetimepicker" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="mb-3 mb-md-0">
+                                        <select name="duration" class="custom-select px-4" style="height: 47px;">
+                                            <option selected>2 Dias</option>
+                                            <option value="1">3 Dias</option>
+                                            <option value="2">4 Dias</option>
+                                            <option value="3">1 Semana</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary btn-block" type="submit"
+                            style="height: 47px; margin-top: -2px;">Enviar</button>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+
+    <!-- Destination Start -->
+    <div class="container-fluid py-5">
+        <div class="container pt-5 pb-3">
+            <div class="text-center mb-3 pb-3">
+                <h6 class="text-primary text-uppercase" style="letter-spacing: 5px;">Destinos</h6>
+                <h1>Explora tambien fuera del pais</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/destination-1.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">United States</h5>
+                            <span>100 Ciudades</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/destination-2.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">United Kingdom</h5>
+                            <span>100 Ciudades</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/destination-3.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Australia</h5>
+                            <span>100 Ciudades</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/destination-4.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">India</h5>
+                            <span>100 Ciudades</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/destination-5.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">South Africa</h5>
+                            <span>100 Ciudades</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="destination-item position-relative overflow-hidden mb-2">
+                        <img class="img-fluid" src="img/destination-6.jpg" alt="">
+                        <a class="destination-overlay text-white text-decoration-none" href="">
+                            <h5 class="text-white">Indonesia</h5>
+                            <span>100 Ciudades</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Destination Start -->
+
+
+    <!-- footer Start -- usando JQuery -->
+    <div class="footer">
+        <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+    </div>
+    <!-- footer End -- usando JQuery -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+    <!-- Script para cargar países automáticamente al cargar la página -->
+    <script src="./js/countries.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <!--  Script para cargar x y x con un function  -->
+    <script>
+        let toast = "";
+        $(document).ready(function () {
+            // Cargamos el topbar
+            $(".topbar").load("topbar.html");
+            // Cargamos el footer
+            $(".footer").load("footer.html");
+            toast = localStorage.getItem("toast");
+            if (toast == "true") {
+                $("#liveToast").removeClass("hide");
+                $("#liveToast").addClass("show");
+                setTimeout(function () {
+                    $("#liveToast").fadeOut(1500);
+                    $("#liveToast").removeClass("show");
+                    $("#liveToast").removeClass("hide");
+                    localStorage.clear();
+                }, 3000);
+            }
+        });
+    </script>
+
+</body>
+
+</html>

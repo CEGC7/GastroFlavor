@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Gastro Flavor</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="Free HTML Templates" name="keywords" />
+  <meta content="Free HTML Templates" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/favicon.ico" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+  <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- TopBar y Navbar Start -- usando JQuery -->
+  <div class="topbar">
+    <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+  </div>
+  <!-- TopBar y Navbar End -- usando JQuery -->
+
+  <!-- Carousel Start -->
+  <div class="container-fluid p-0">
+    <div id="header-carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="w-100" src="img/carouselRest1.jpg" alt="Image" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px">
+              <h4 class="text-white text-uppercase mb-md-3">Experiencias Gastronómicas</h4>
+              <h1 class="display-3 text-white mb-md-4">
+                Deléitate con los sabores del mundo!
+              </h1>
+              <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Reservar</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="w-100" src="img/carouselRest2.jpg" alt="Image" />
+          <div class="carousel-caption d-flex flex-column align-items-center justify-content-center">
+            <div class="p-3" style="max-width: 900px">
+              <h4 class="text-white text-uppercase mb-md-3">Experiencias Gastronómicas</h4>
+              <h1 class="display-3 text-white mb-md-4">
+                Deléitate con los sabores del mundo!
+              </h1>
+              <a href="" class="btn btn-primary py-md-3 px-md-5 mt-2">Reservar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#header-carousel" data-slide="prev">
+        <div class="btn btn-dark" style="width: 45px; height: 45px">
+          <span class="carousel-control-prev-icon mb-n2"></span>
+        </div>
+      </a>
+      <a class="carousel-control-next" href="#header-carousel" data-slide="next">
+        <div class="btn btn-dark" style="width: 45px; height: 45px">
+          <span class="carousel-control-next-icon mb-n2"></span>
+        </div>
+      </a>
+    </div>
+  </div>
+  <!-- Carousel End -->
+
+  <!-- Booking Start -->
+  <div class="container-fluid booking mt-5 pb-5">
+    <div class="container pb-5">
+      <div class="bg-light shadow" style="padding: 30px;">
+        <div class="row align-items-center" style="min-height: 60px;">
+          <div class="col-md-10">
+            <form target="_blank" action="https://formsubmit.co/cesargutic98@gmail.com" method="POST">
+              <div class="row">
+                <div class="col-md-3">
+                  <div class="mb-3 mb-md-0">
+                    <select id="countriesSelect" name="country" class="custom-select px-4"
+                      style="height: 47px;"></select>
+
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="mb-3 mb-md-0">
+                    <div class="date" id="date1" data-target-input="nearest">
+                      <input name="Depart date" type="text" class="form-control p-4 datetimepicker-input"
+                        placeholder="Depart Date" data-target="#date1" data-toggle="datetimepicker" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="mb-3 mb-md-0">
+                    <div class="date" id="date2" data-target-input="nearest">
+                      <input name="Return date" type="text" class="form-control p-4 datetimepicker-input"
+                        placeholder="Return Date" data-target="#date2" data-toggle="datetimepicker" />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="mb-3 mb-md-0">
+                    <select name="duration" class="custom-select px-4" style="height: 47px;">
+                      <option selected>2 Horas</option>
+                      <option value="1">3 Horas</option>
+                      <option value="2">4 Horas</option>
+                      <option value="3">Toda la Noche</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="col-md-2">
+            <button class="btn btn-primary btn-block" type="submit"
+              style="height: 47px; margin-top: -2px;">Reservar</button>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Booking End -->
+
+  <!-- About Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5">
+      <div class="row">
+        <div class="col-lg-6" style="min-height: 500px">
+          <div class="position-relative h-100">
+            <img class="position-absolute w-100 h-100" src="img/street-food.jpg" style="object-fit: cover" />
+          </div>
+        </div>
+        <div class="col-lg-6 pt-5 pb-lg-5">
+          <div class="about-text bg-white p-4 p-lg-5 my-lg-5">
+            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+              Experiencias Gastronómicas
+            </h6>
+            <h1 class="mb-3">Descubre los placeres de la buena comida</h1>
+            <p>
+              Desde restaurantes elegantes hasta puestos callejeros, sumérgete en la riqueza de los
+              sabores locales y
+              las tradiciones culinarias. Nuestros expertos guías te llevarán en un viaje para tus
+              sentidos que nunca
+              olvidarás.
+            </p>
+            <div class="row mb-4">
+              <div class="col-6">
+                <img class="img-fluid" src="img/street-food1.jpg" alt="" />
+              </div>
+              <div class="col-6">
+                <img class="img-fluid" src="img/food.jpg" alt="" />
+              </div>
+            </div>
+            <a href="" class="btn btn-primary mt-1">Reservar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+  <!-- Feature Start -->
+  <div class="container-fluid pb-5">
+    <div class="container pb-5">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+              style="height: 100px; width: 100px">
+              <i class="fa fa-2x fa-money-check-alt text-white"></i>
+            </div>
+            <div class="d-flex flex-column">
+              <h5 class="">Precios Competitivos</h5>
+              <p class="m-0">Ofrecemos comidas con grandes descuentos</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+              style="height: 100px; width: 100px">
+              <i class="fa fa-2x fa-utensils text-white"></i>
+            </div>
+            <div class="d-flex flex-column">
+              <h5 class="">Degustaciones Exclusivas</h5>
+              <p class="m-0">
+                Disfruta de catas y eventos gastronómicos únicos
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="d-flex mb-4 mb-lg-0">
+            <div class="d-flex flex-shrink-0 align-items-center justify-content-center bg-primary mr-3"
+              style="height: 100px; width: 100px">
+              <i class="fa fa-2x fa-globe text-white"></i>
+            </div>
+            <div class="d-flex flex-column">
+              <h5 class="">Chef Expertos</h5>
+              <p class="m-0">
+                Chef profesionales de todo el mundo te sorprenderán
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Feature End -->
+
+  <!-- Restaurant Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Destinos Gastronómicos
+        </h6>
+        <h1>Explora los sabores del mundo</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/restItaliano.jpg" alt="" style="width: 100%; height: 200px;" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">Italia</h5>
+              <span>7 Restaurantes</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/restFrances.jpg" alt="" style="width: 100%; height: 200px;" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">Francia</h5>
+              <span>11 Restaurantes</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/restJapones.jpg" alt="" style="width: 100%; height: 200px;" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">Japón</h5>
+              <span>9 Restaurantes</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/restUnitedKingdom.jpg" alt="" style="width: 100%; height: 200px;" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">Reino Unido</h5>
+              <span>4 Restaurantes</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/restEspaña.jpg" alt="" style="width: 100%; height: 200px;" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">España</h5>
+              <span>3 Restaurantes</span>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="destination-item position-relative overflow-hidden mb-2">
+            <img class="img-fluid" src="img/restAleman.jpg" alt="" style="width: 100%; height: 200px;" />
+            <a class="destination-overlay text-white text-decoration-none" href="">
+              <h5 class="text-white">Alemania</h5>
+              <span>5 Restaurantes</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Restaurant Start -->
+
+  <!-- Service Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Servicios Gastronómicos
+        </h6>
+        <h1>Servicios</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-item bg-white text-center mb-2 py-5 px-4">
+            <i class="fa fa-2x fa-wine-glass mx-auto mb-4"></i>
+            <h5 class="mb-2">Catas de Vinos</h5>
+            <p class="m-0">
+              Descubre los matices de los mejores vinos acompañados de expertos
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-item bg-white text-center mb-2 py-5 px-4">
+            <i class="fa fa-2x fa-coffee mx-auto mb-4"></i>
+            <h5 class="mb-2">Degustaciones de Café</h5>
+            <p class="m-0">Explora los aromas y sabores de cafés exóticos</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="service-item bg-white text-center mb-2 py-5 px-4">
+            <i class="fa fa-2x fa-ice-cream mx-auto mb-4"></i>
+            <h5 class="mb-2">Clases de Repostería</h5>
+            <p class="m-0">
+              Aprende a preparar postres irresistibles de nuestros chefs
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Service End -->
+
+  <!-- Packages Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Paquetes
+        </h6>
+        <h1>Mejores Paquestes Gastronómicos</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/PaqueteVillaCrespi-Italia.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Italia</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>4 Horas</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>5 Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores platillos de Villa Crespi</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.5
+                    <small>(189)</small>
+                  </h6>
+                  <h5 class="m-0">$384</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/Alain Ducasse-Francia.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Francia</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>2 Horas
+                  dias</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2
+                  Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores platillo de Alain Ducasse</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.9
+                    <small>(174)</small>
+                  </h6>
+                  <h5 class="m-0">$105</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/Kyoto Kitcho Arashiyama-Japon.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Japón</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>Toda la noche</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>7 Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores platillos de Kyoto Kitcho Arashiyama</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.7
+                    <small>(500)</small>
+                  </h6>
+                  <h5 class="m-0">$789</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/Cafe Van Gogh-ReinoUnido.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Reino Unido</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>2 Horas</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>4
+                  Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre el mejor café en Cafe Van Gogh</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.6
+                    <small>(258)</small>
+                  </h6>
+                  <h5 class="m-0">$99</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/EL CENADOR DE AMÓS-España.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>España</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>Toda la noche</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>2 Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores platillos de El Cenador De Amós</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.8
+                    <small>(148)</small>
+                  </h6>
+                  <h5 class="m-0">$133</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-4">
+          <div class="package-item bg-white mb-2">
+            <img class="img-fluid" src="img/Schwarzwaldstube-Alemania.jpg" alt="" />
+            <div class="p-4">
+              <div class="d-flex justify-content-between mb-3">
+                <small class="m-0"><i class="fa fa-map-marker-alt text-primary mr-2"></i>Alemania</small>
+                <small class="m-0"><i class="fa fa-calendar-alt text-primary mr-2"></i>3 Horas</small>
+                <small class="m-0"><i class="fa fa-user text-primary mr-2"></i>6 Personas</small>
+              </div>
+              <a class="h5 text-decoration-none" href="">Descubre los mejores platillos de Schwarzwaldstube</a>
+              <div class="border-top mt-4 pt-4">
+                <div class="d-flex justify-content-between">
+                  <h6 class="m-0">
+                    <i class="fa fa-star text-primary mr-2"></i>4.9
+                    <small>(741)</small>
+                  </h6>
+                  <h5 class="m-0">$675</h5>
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Packages End -->
+
+  <!-- Registration Start -->
+  <div class="container-fluid bg-registration py-5" style="margin: 90px 0">
+    <div class="container py-5">
+      <div class="row align-items-center">
+        <div class="col-lg-7 mb-5 mb-lg-0">
+          <div class="mb-4">
+            <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+              Mega Oferta
+            </h6>
+            <h1 class="text-white">
+              <span class="text-primary">30% De Descuento</span> Para BAC
+              CREDOMATIC
+            </h1>
+          </div>
+          <p class="text-white">
+            Tenemos convenio con el BAC, donde tambien podran utilizar sus
+            puntos o millas con nostros para un descuento mucho mayor
+          </p>
+          <ul class="list-inline text-white m-0">
+            <li class="py-2">
+              <i class="fa fa-check text-primary mr-3"></i>Transacción Rápida
+            </li>
+            <li class="py-2">
+              <i class="fa fa-check text-primary mr-3"></i>Uso de la tarjeta
+              dentro y fuera del País
+            </li>
+            <li class="py-2">
+              <i class="fa fa-check text-primary mr-3"></i>Promociones por
+              medio de BAC Promo
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-5">
+          <div class="card border-0">
+            <div class="card-header bg-primary text-center p-4">
+              <h1 class="text-white m-0">Regístrese Aquí</h1>
+            </div>
+            <div class="card-body rounded-bottom bg-white p-5">
+              <form>
+                <div class="form-group">
+                  <input type="text" class="form-control p-4" placeholder="Nombre" required="required" />
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control p-4" placeholder="Correo" required="required" />
+                </div>
+                <div class="form-group">
+                  <select class="custom-select px-4" style="height: 47px">
+                    <option selected>Selecciona un Paquete</option>
+                    <option value="1">Italia</option>
+                    <option value="2">Francia</option>
+                    <option value="3">Japón</option>
+                    <option value="4">Reino Unido</option>
+                    <option value="5">España</option>
+                    <option value="6">Alemania</option>
+                  </select>
+                </div>
+                <div>
+                  <button class="btn btn-primary btn-block py-3" type="submit">
+                    Registrarse
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Registration End -->
+
+  <!-- Team Start -->
+  <div class="container-fluid py-5">
+    <div class="container pt-5 pb-3">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Guias
+        </h6>
+        <h1>Nuestros Guias Gastronómicos</h1>
+      </div>
+      <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-1.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fa fa-instagram"
+                    aria-hidden="true"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+                <li> <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a> </li>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Maria Ortiz</h5>
+              <p class="m-0">United Kingdom</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-2.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Marco Zeledón</h5>
+              <p class="m-0">Italia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-3.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Celia Alvarado</h5>
+              <p class="m-0">Francia</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-6 pb-2">
+          <div class="team-item bg-white mb-4">
+            <div class="team-img position-relative overflow-hidden">
+              <img class="img-fluid w-100" src="img/team-4.jpg" alt="" />
+              <div class="team-social">
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-outline-primary btn-square" href=""><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="text-center py-4">
+              <h5 class="text-truncate">Juan Herrera</h5>
+              <p class="m-0">Japón</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Team End -->
+
+  <!-- Testimonial Start -->
+  <div class="container-fluid py-5">
+    <div class="container py-5">
+      <div class="text-center mb-3 pb-3">
+        <h6 class="text-primary text-uppercase" style="letter-spacing: 5px">
+          Testimonios
+        </h6>
+        <h1>Los clientes comentan:</h1>
+      </div>
+      <div class="owl-carousel testimonial-carousel">
+        <div class="text-center pb-4">
+          <img class="img-fluid mx-auto" src="img/testimonial-1.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">Fue una experiencia maravillosa.</p>
+            <h5 class="text-truncate">Maikol Zuñiga</h5>
+            <span>Secretario</span>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="img-fluid mx-auto" src="img/testimonial-2.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">Espero volver a España y visitar su restaurante</p>
+            <h5 class="text-truncate">Sofia Hernandez</h5>
+            <span>Reportera</span>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="img-fluid mx-auto" src="img/testimonial-3.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">
+              Reservando mi siguiente paquete gastronómico!
+            </p>
+            <h5 class="text-truncate">Jonndher Navarro</h5>
+            <span>Enfermero</span>
+          </div>
+        </div>
+        <div class="text-center">
+          <img class="img-fluid mx-auto" src="img/testimonial-4.jpg" style="width: 100px; height: 100px" />
+          <div class="testimonial-text bg-white p-4 mt-n5">
+            <p class="mt-5">La comida de Italia es la mas deliciosa</p>
+            <h5 class="text-truncate">Cristopher Solano</h5>
+            <span>Ingeniero</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Testimonial End -->
+
+
+  <!-- Se agrega el video de YouTube -->
+  <div class="text-center embed-responsive embed-responsive-16by9">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/j2b_byJg4ts?si=ks7M8VrP4IpHrRck"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
+  </div>
+  </div>
+  <!--YouTube End-->
+
+  <!-- footer Start -- usando JQuery -->
+  <div class="footer">
+    <!-- Aqui se cargar el topbar junto con el navbar usando JQuery -->
+  </div>
+  <!-- footer End -- usando JQuery -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/tempusdominus/js/moment.min.js"></script>
+  <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+  <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+  <!-- Script para cargar países automáticamente al cargar la página -->
+  <script src="./js/countries.js"></script>
+
+  <!-- Contact Javascript File -->
+  <script src="mail/jqBootstrapValidation.min.js"></script>
+  <script src="mail/contact.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+
+  <!--  Script para cargar:
+    topbar,
+    navbar y
+    footer 
+    con un function  -->
+  <script>
+    let toast = "";
+    $(document).ready(function () {
+      // Se carga el topbar
+      $(".topbar").load("topbar.html");
+      // Se carga el footer
+      $(".footer").load("footer.html");
+      toast = localStorage.getItem("toast");
+      if (toast == "true") {
+        $("#liveToast").removeClass("hide");
+        $("#liveToast").addClass("show");
+        setTimeout(function () {
+          $("#liveToast").fadeOut(1500);
+          $("#liveToast").removeClass("show");
+          $("#liveToast").removeClass("hide");
+          localStorage.clear();
+        }, 3000);
+      }
+    });
+
+  </script>
+
+</body>
+
+</html>
